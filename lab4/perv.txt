@@ -1,6 +1,7 @@
 sasha
-pastukhov
-sasha pastukhov
+pasha
+sasha pasha
 privet
 privet sasha
-privet sasha pastukhov
+privet pasha
+privet sasha pasha
