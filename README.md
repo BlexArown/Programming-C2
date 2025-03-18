@@ -1,1 +1,1 @@
-# Programming-C2, папка со второй лабой в Programming-C
+# Programming-C2, папка с третьей лабой в Programming-C
