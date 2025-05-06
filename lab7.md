@@ -16,7 +16,7 @@
 *Пояснение - Для начала создадим два потока, которые будут являться дочерним и родительским, относительно приоритета работы.*
 
 
-![image](https://github.com/user-attachments/assets/4822e4a1-58f6-4f9c-b323-a3ddbe10ab14)
+![image](https://github.com/BlexArown/Programming-C2/blob/main/laba7/Screenshot_1.png?raw=true)
 
 ---
 
@@ -24,7 +24,7 @@
 *Пояснение - Изменим приоритет и обозначим, что дочерний поток должен выполнить свою программу, раньше основной “родительской программы”, для этого изменим pthread_join(thread, NULL) на более раннюю позицию, перед основной программой, что даст ей приоритет в выполнении.*
 
 
-![image](https://github.com/user-attachments/assets/3f56d781-3127-4126-9931-8cc53f941028)
+![image](https://github.com/BlexArown/Programming-C2/blob/main/laba7/Screenshot_1.png?raw=true)
 
 ---
 
@@ -33,7 +33,7 @@
 
 
 
-![image](https://github.com/user-attachments/assets/6a578fbe-cef2-490d-b490-7352819a4c39)
+![image](https://github.com/BlexArown/Programming-C2/blob/main/laba7/Screenshot_2.png?raw=true)
 
 ---
 
@@ -41,7 +41,7 @@
 *Пояснение - Изменим вывод функции,  добавив параметр sleep, определяющий, что программа должна прождать 1 секунду между каждым новым выводом потока, а так же внесём параметр sleep, для основной программы, который будет отвечать за то, что через 2 секунды, основной поток прервёт работу всех существующих потоков.*
 
 
-![image](https://github.com/user-attachments/assets/50dd0c72-310d-445e-938e-d039c1c0f2e6)
+![image](https://github.com/BlexArown/Programming-C2/blob/main/laba7/Screenshot_3.png?raw=true)
 
 ---
 
@@ -49,7 +49,7 @@
 *Пояснение - С помощью pthread_cleanup_push(), мы инициализируем завершение работы потоков, выводя об этом сообщения в терминал.*
 
 
-![image](https://github.com/user-attachments/assets/15df5edf-27e8-4c85-8421-df52b51965f2)
+![image](https://github.com/BlexArown/Programming-C2/blob/main/laba7/Screenshot_4.png?raw=true)
 
 ---
 
@@ -57,6 +57,6 @@
 *Пояснение - Создадим сортировку Sleep_Sort, основанную на принципе вывода значения своего аргумента спустя время, равное аргументу элемента массива.*
 
 
-![image](https://github.com/user-attachments/assets/cc11821c-8f83-42d7-9aa5-6514596f601c)
+![image](https://github.com/BlexArown/Programming-C2/blob/main/laba7/Screenshot_5.png?raw=true)
 
 ---
